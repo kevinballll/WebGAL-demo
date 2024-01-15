@@ -1,9 +1,9 @@
-; 初始场景，以及特效演示
 bgm:s_Title.mp3;
 unlockBgm:s_Title.mp3 -name=雲を追いかけて;
-intro:你好|欢迎来到 WebGAL 的世界;
 changeBg:bg.png -next;
 unlockCg:bg.png -name=良夜; // 解锁CG并赋予名称
 changeFigure:stand.png -left -next;
 setAnimation:enter-from-left -target=fig-left -next;
-WebGAL:欢迎使用 WebGAL！这是一款全新的网页端视觉小说引擎。 -v1.wav;
+Kev:这里是Kevin的Github Page Demo .|仅作个人Github Page部署学习及熟悉WebGAL引擎使用 ! -fontSize=default;
+getUserInput:name -title=请输入你的名字 -buttonText=;
+我测你的🐎, {name} ! -fontSize=default;
