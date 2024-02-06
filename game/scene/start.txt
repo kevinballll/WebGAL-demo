@@ -6,4 +6,5 @@ changeFigure:stand.png -left -next;
 setAnimation:enter-from-left -target=fig-left -next;
 Kev:这里是Kevin的Github Page Demo .|仅作个人Github Page部署学习及熟悉WebGAL引擎使用 ! -fontSize=default;
 getUserInput:name -title=请输入你的名字 -buttonText=;
-我测你的🐎, {name} ! -fontSize=default;
+你好，{name} ！ -fontSize=default;
+暂时先玩到这里咯... -fontSize=default;
